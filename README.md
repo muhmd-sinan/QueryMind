@@ -1,4 +1,4 @@
-# QueryMind
+# AskSQL
 
 Natural Language SQL Query Generator with modern glassmorphism web interface.
 
@@ -23,7 +23,7 @@ Convert natural language questions into SQL queries using Groq LLMs and execute 
 ## Project Structure
 
 ```
-QueryMind/
+AskSQL/
 ├── api.py                    # Flask REST API backend
 ├── app.py                    # Groq LLM query generation
 ├── db.py                     # Database utilities
@@ -87,8 +87,8 @@ QueryMind/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/<username>/querymind.git
-   cd querymind
+git clone https://github.com/muhmd-sinan/AskSQL.git
+cd asksql
    ```
 
 2. **Create virtual environment**

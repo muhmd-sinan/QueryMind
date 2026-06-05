@@ -23,7 +23,7 @@ import app as backend
 # Page config  (must be the very first Streamlit call)
 # ─────────────────────────────────────────────────────────────────────────────
 st.set_page_config(
-    page_title="QueryMind · Text-to-SQL",
+    page_title="AskSQL · Natural Language to SQL",
     page_icon="🧠",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -120,7 +120,7 @@ def _sidebar():
     with st.sidebar:
         st.markdown("""
         <div style='padding:1rem 0 .5rem;'>
-          <span style='font-size:1.4rem;font-weight:700;letter-spacing:-.03em;color:#58a6ff;'>QueryMind</span><br/>
+          <span style='font-size:1.4rem;font-weight:700;letter-spacing:-.03em;color:#58a6ff;'>AskSQL</span><br/>
           <span style='font-size:.7rem;color:#444c56;letter-spacing:.1em;text-transform:uppercase;'>Text · to · SQL</span>
         </div>
         """, unsafe_allow_html=True)

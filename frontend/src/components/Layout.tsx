@@ -25,8 +25,8 @@ export function Layout({ children, currentPage, onNavigate, status, onShowHistor
       <div className="flex min-h-screen">
         <aside className="fixed left-0 top-0 h-[calc(100vh-2rem)] w-72 glass-card m-4 rounded-2xl p-6 flex flex-col overflow-y-auto scrollbar-thin">
           <div className="mb-8">
-            <h1 className="text-3xl font-bold text-gradient">QueryMind</h1>
-            <p className="text-slate-400 text-sm mt-1 tracking-wide uppercase">Text · to · SQL</p>
+            <h1 className="text-3xl font-bold text-gradient tracking-tight">AskSQL</h1>
+            <p className="text-slate-400 text-sm mt-1 tracking-wide uppercase">Natural Language to SQL</p>
           </div>
 
           <nav className="flex-1">

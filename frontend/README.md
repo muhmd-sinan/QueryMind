@@ -1,6 +1,6 @@
-# QueryMind React Frontend
+# AskSQL React Frontend
 
-Professional glassmorphism React frontend for QueryMind Text-to-SQL application.
+Professional glassmorphism React frontend for AskSQL Text-to-SQL application.
 
 ## Quick Start
 
