@@ -87,8 +87,10 @@ AskSQL/
 
 1. **Clone the repository**
    ```bash
+
 git clone https://github.com/muhmd-sinan/AskSQL.git
 cd asksql
+
    ```
 
 2. **Create virtual environment**
